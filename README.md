@@ -103,6 +103,11 @@ The Arduino code was developed progressively:
 </p>
 
 ![2-channel EMG mouse demo](Video_Demo.gif)
+![Test GIF](https://github.com/sirine-b/EMG-BASED-MOUSE/blob/main/Video_Demo.gif?raw=true)
+<p align="center">
+  <img src="Video_Demo.gif" width="560"/>
+</p>
+
 <p align="center">
   <img src="Video_Demo.gif" alt="2-channel EMG mouse demo" width="560"/>
   <br>

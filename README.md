@@ -48,13 +48,13 @@ The analog signal processing circuit was designed to condition the EMG signal be
 **Characterisation:** Each circuit block was tested using a myDAQ for voltage, frequency response, and gain, and results were verified using oscilloscope plots.
 
 <p align="center">
-  <img width="1748" height="1125" alt="image" src="https://github.com/user-attachments/assets/205194c7-a8e0-4a24-9bdb-b9fb31499192" />
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/205194c7-a8e0-4a24-9bdb-b9fb31499192" />
   <br>
   <b>Figure 2:</b> Circuit Diagram, Image and Characterisation of each circuit block Note: For the characterisation of the Active Full-Wave Rectifier, we compared the input signal entering the rectifier (i.e. left image of cadrant 5.C) to the output signal leaving it (right image of cadrant 5.C).
 </p>
 
 <p align="center">
-  <img width="1354" height="1041" alt="image" src="https://github.com/user-attachments/assets/bebe1e71-30a0-4de3-b480-51afce5189a0" />
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/bebe1e71-30a0-4de3-b480-51afce5189a0" />
   <br>
   <b>Figure 3:</b> Circuit Diagram and Image of the 2-channel (i.e. left and right movements) circuit connections.  
 </p>
@@ -76,7 +76,7 @@ The Arduino code was developed progressively:
 - Optimised step size and delay for faster and accurate mouse movements  
 
 <p align="center">
-  <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/6950bd68-298d-4d17-a655-77d5fb3e8da2" />
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6950bd68-298d-4d17-a655-77d5fb3e8da2" />
   <br>
   <b>Figure 4:</b> Code Flowchart.
 </p>
@@ -90,19 +90,24 @@ The Arduino code was developed progressively:
 - **Human Muscle Input:** Verified real EMG signals from team member, adjusted gain accordingly  
 
 <p align="center">
-  <img width="1211" height="1008" alt="image" src="https://github.com/user-attachments/assets/e7fc6d5c-7be2-4b90-9b80-fb3df98af77c" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/e7fc6d5c-7be2-4b90-9b80-fb3df98af77c" />
   <br>
   <b>Figure 5:</b> Signal shown on Arduino when muscle is relaxed (max ~140mV) and contracted (max ~750mV)
 </p>
 
 ## Electrode Placement and Video Demonstration
 <p align="center">
-  <img width="788" height="965" alt="image" src="https://github.com/user-attachments/assets/76cad6ef-5d09-40b1-af6d-d8883e8c5bec" />
+  <img src="https://github.com/user-attachments/assets/76cad6ef-5d09-40b1-af6d-d8883e8c5bec" alt="Electrode Placement" width="400" />
   <br>
-  <b>Figure 6:</b> Electrode placement for the 2-channel configuration (i.e. left and right). The two electrodes on the flexor carpi radialis control the left gesture, and the two on the brachioradialis control the right motion. The 2 reference electrodes were placed on the elbow. 
+  <b>Figure 6:</b> Electrode placement for the 2-channel configuration (i.e. left and right). The two electrodes on the flexor carpi radialis control the left gesture, and the two on the brachioradialis control the right motion. The 2 reference electrodes were placed on the elbow.
 </p>
 
-![](Video_Demo.gif)
+<p align="center">
+  <img src="Video_Demo.gif" alt="Demo GIF" width="700" />
+  <br>
+  <b>Demo GIF:</b> Demonstration of the EMG-controlled mouse moving left and right (x1.6).
+</p>
+
 
 
 ---

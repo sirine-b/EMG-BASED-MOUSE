@@ -102,17 +102,8 @@ The Arduino code was developed progressively:
   <b>Figure 6:</b> Electrode placement for the 2-channel configuration (i.e. left and right). The two electrodes on the flexor carpi radialis control the left gesture, and the two on the brachioradialis control the right motion. The 2 reference electrodes were placed on the elbow. 
 </p>
 
-![2-channel EMG mouse demo](Video_Demo.gif)
-![Test GIF](https://github.com/sirine-b/EMG-BASED-MOUSE/blob/main/Video_Demo.gif?raw=true)
-<p align="center">
-  <img src="Video_Demo.gif" width="560"/>
-</p>
+![](Video_Demo.gif)
 
-<p align="center">
-  <img src="Video_Demo.gif" alt="2-channel EMG mouse demo" width="560"/>
-  <br>
-  <b>Figure 7:</b> Video demonstration of the 2-channel mouse successfully used to play a left/right game.
-</p>
 
 ---
 
